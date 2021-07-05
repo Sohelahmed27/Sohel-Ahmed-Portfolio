@@ -67,3 +67,6 @@ h2{
   ,tomato);
   border-image-slice:1;
    }
+  footer p{
+    text-align: center;
+  }
