@@ -6,38 +6,64 @@ body {
 h1 {
   font-size: 50px;
 }
+h2{
+  font-size: 40px ;
+}
 .orange-color {
   color: orange;
 }
-saction {
+ .flexible-container{
   display: flex;
   margin-bottom: 100px;
 }
 .half-width {
-
-      width:50%;
-      padding-left: 10%;
+  width: 50%;
+  padding:5%;
 
 }
-.link-button{
+.link-button {
   text-decoration: none;
-  background-image:linear-gradient(orange,tomato);
+  background-image: linear-gradient(orange, tomato);
   text-decoration-color: white;
   padding: 10px 40px;
   color: white;
-  font-weight:700;
+  font-weight: 700;
   border-radius: 5px;
 }
-.top-banner{
+.top-banner {
   background-image: url(photo/top-banner.png);
   background-repeat: no-repeat;
+}
 
-}
-.Dream-big{
-           display: flex;
-}
-.Dream-big{
+.Dream-big {
   background-image: url(photo/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience-area{
+  background-image: url(photo/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+.experience-item{
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+ margin-right:5%;
+ border-radius: 10px;
+ padding-left: 20px;
+ }
+#web-dev-experience{
+  border-left: 7px solid;
+  border-image:linear-gradient(blue
+  ,cyan);
+  border-image-slice:1; 
+  
+}
+#web-dev-ex {
+  border-left: 7px solid;
+  border-image:linear-gradient(salmon
+  ,tomato);
+  border-image-slice:1;
+   }
